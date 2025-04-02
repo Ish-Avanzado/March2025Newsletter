@@ -81,38 +81,65 @@
         padding: 10px 30px;
         font-size: 10px;
         border-radius: 5px;
-        max-width: 8rem;
+        max-width: 7.2rem;
         margin: 0 auto;
         margin-top: 1rem;
       }
 
-      .workImmersionmobile {
-        display: none;
-      }
-
-      @media screen and (max-width: 380px) {
-        /* .header .header__item {
-          background: url(https://lh3.googleusercontent.com/pw/AP1GczO2mnGZ7Yj2iGNuE2ljfUdDewsjbR3GzQPNmmt7SBX9DBXziGh-or05nDOyaQQyAJS-IdnVYcXnpZpcZQB-McNi7ivOGWZc5sAzcShUFGWfO_DwkR4=w2400);
-          background-size: cover;
-          background-repeat: no-repeat;
-          height: 18vh;
-          max-width: 33rem;
-        } */
-        .header__item {
-          background: url(https://lh3.googleusercontent.com/pw/AP1GczO2mnGZ7Yj2iGNuE2ljfUdDewsjbR3GzQPNmmt7SBX9DBXziGh-or05nDOyaQQyAJS-IdnVYcXnpZpcZQB-McNi7ivOGWZc5sAzcShUFGWfO_DwkR4=w2400);
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: center;
-          height: 1px;
-          max-width: 20px;
-          width: 100%;
+      @media screen and (min-width: 300px) {
+        .header .header__item {
+          background-position: center !important;
+          width: 600px !important;
+          height: 180px !important;
+          width: 100% !important;
         }
-
         .workImmersion {
-          display: none;
+          display: block !important;
         }
         .workImmersionmobile {
-          display: block;
+          display: none !important;
+        }
+        h4 {
+          margin-bottom: 0.5rem;
+        }
+        p {
+          margin: 0.5rem 0;
+        }
+        .banner__info,
+        .twoMiles__wrapper,
+        .workImmersionmobile__wrapper,
+        .prairie__wrapper,
+        .marFellowship__wrapper,
+        .footer__wrapper {
+          padding: 20px 10px !important;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .header .header__item {
+          background-position: center !important;
+          /* max-width: 252px !important; */
+          height: 81px !important;
+          width: 100% !important;
+        }
+        .workImmersion {
+          display: none !important;
+        }
+        .workImmersionmobile {
+          display: block !important;
+        }
+        h4 {
+          margin-bottom: 0.5rem;
+        }
+        p {
+          margin: 0.5rem 0;
+        }
+        .banner__info,
+        .twoMiles__wrapper,
+        .workImmersionmobile__wrapper,
+        .prairie__wrapper,
+        .marFellowship__wrapper,
+        .footer__wrapper {
+          padding: 20px 10px !important;
         }
       }
     </style>
@@ -126,7 +153,7 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
-            height: 200px;
+            height: 185px;
             max-width: 34.5rem;
             width: 100%;
           "
@@ -254,7 +281,7 @@
       <div class="container">
         <div
           style="background: #d9d9d9; padding: 40px 10px"
-          class="workImmersion__wrapper"
+          class="workImmersionmobile__wrapper"
         >
           <h2>STI College San Pablo Kicks Off SHS Work Immersion at FBS</h2>
           <h4>Learning Center Solutions Service</h4>
@@ -264,7 +291,7 @@
               alt="STI Picture"
           /></a>
           <a href="" class="btn">Read more</a>
-          <p style="margin: 0">
+          <p>
             STI College San Pablo's Grade 12 ICT students have officially begun
             their 80-hour Work Immersion Program in Web Design and Web
             Development! Guided by industry professionals, students will gain
