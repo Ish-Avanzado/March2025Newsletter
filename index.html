@@ -86,16 +86,34 @@
         margin-top: 1rem;
       }
 
-      @media screen and (max-width: 500px) {
-        .header .header__item {
+      .workImmersionmobile {
+        display: none;
+      }
+
+      @media screen and (max-width: 380px) {
+        /* .header .header__item {
           background: url(https://lh3.googleusercontent.com/pw/AP1GczO2mnGZ7Yj2iGNuE2ljfUdDewsjbR3GzQPNmmt7SBX9DBXziGh-or05nDOyaQQyAJS-IdnVYcXnpZpcZQB-McNi7ivOGWZc5sAzcShUFGWfO_DwkR4=w2400);
           background-size: cover;
           background-repeat: no-repeat;
           height: 18vh;
           max-width: 33rem;
+        } */
+        .header__item {
+          background: url(https://lh3.googleusercontent.com/pw/AP1GczO2mnGZ7Yj2iGNuE2ljfUdDewsjbR3GzQPNmmt7SBX9DBXziGh-or05nDOyaQQyAJS-IdnVYcXnpZpcZQB-McNi7ivOGWZc5sAzcShUFGWfO_DwkR4=w2400);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          height: 1px;
+          max-width: 20px;
+          width: 100%;
         }
 
-         
+        .workImmersion {
+          display: none;
+        }
+        .workImmersionmobile {
+          display: block;
+        }
       }
     </style>
   </head>
@@ -107,8 +125,10 @@
             background: url(https://lh3.googleusercontent.com/pw/AP1GczO2mnGZ7Yj2iGNuE2ljfUdDewsjbR3GzQPNmmt7SBX9DBXziGh-or05nDOyaQQyAJS-IdnVYcXnpZpcZQB-McNi7ivOGWZc5sAzcShUFGWfO_DwkR4=w2400);
             background-size: cover;
             background-repeat: no-repeat;
-            height: 18vh;
+            background-position: center;
+            height: 200px;
             max-width: 34.5rem;
+            width: 100%;
           "
           class="header__item"
         ></div>
@@ -195,7 +215,7 @@
       </div>
     </section>
 
-    <secttion class="workImmersion">
+    <section class="workImmersion">
       <div class="container">
         <div
           style="background: #d9d9d9; padding: 40px 10px"
@@ -228,7 +248,33 @@
           </table>
         </div>
       </div>
-    </secttion>
+    </section>
+
+    <section class="workImmersionmobile">
+      <div class="container">
+        <div
+          style="background: #d9d9d9; padding: 40px 10px"
+          class="workImmersion__wrapper"
+        >
+          <h2>STI College San Pablo Kicks Off SHS Work Immersion at FBS</h2>
+          <h4>Learning Center Solutions Service</h4>
+          <a href="#"
+            ><img
+              src="https://lh3.googleusercontent.com/pw/AP1GczPw-vtzFlicJONf2Lrf6GoFlUhisEzRw9TNx_imJv4tZYqd4W5foO_HZcmMkb-L-n8pF1UMCbEn0mwBTINMuTr7uTATrPnWfmOZxIFlckC1rXf1c5w=w2400"
+              alt="STI Picture"
+          /></a>
+          <a href="" class="btn">Read more</a>
+          <p style="margin: 0">
+            STI College San Pablo's Grade 12 ICT students have officially begun
+            their 80-hour Work Immersion Program in Web Design and Web
+            Development! Guided by industry professionals, students will gain
+            hands-on experience using Figma for UI/UX design and HTML & CSS for
+            web development, bridging the gap between academics and real-world
+            application.
+          </p>
+        </div>
+      </div>
+    </section>
 
     <section class="prairie">
       <div class="container">
